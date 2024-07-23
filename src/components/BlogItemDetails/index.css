@@ -1,0 +1,51 @@
+.blog-detail-container {
+  padding: 10px;
+}
+
+.blog-detail-title {
+  text-align: center;
+  font-size: 20px;
+}
+
+.blog-detail-author-container {
+  display: flex;
+  justify-content: space-between;
+  width: 160px;
+}
+
+.blog-detail-blog-image {
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+.blog-detail-author-image {
+  width: 50px;
+  border-radius: 50px;
+}
+
+.blog-detail-author-name {
+  font-weight: 600;
+  color: #000000;
+}
+.content {
+  color: #2f4f4f;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+@media screen and (orientation: landscape) {
+  .blog-detail-container {
+    width: 80%;
+  }
+
+  .blog-detail-blog-image-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .blog-detail-blog-image {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 90%;
+  }
+}
